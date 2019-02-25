@@ -1,4 +1,5 @@
-requirements.txt文件，里面记录了当前程序的所有依赖包及其精确版本号。其作用是用来在另一台PC上重新构建项目所需要的运行环境依赖。
+requirements.txt文件，里面记录了当前程序的所有依赖包及其精确版本号。
+其作用是用来在另一台PC上重新构建项目所需要的运行环境依赖。
 requirements.txt可以通过pip命令自动生成和安装
 1. 生成requirements.txt文件， pip freeze > requirements.txt
 2. 安装requirements.txt依赖， pip install -r requirements.txt
