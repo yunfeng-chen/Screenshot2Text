@@ -32,9 +32,9 @@ class Change2Text:
         return textResult
     def doOCR(self):
         """  百度SDK, 开放API. APPID AK SK """
-        APP_ID = '15619671'
-        API_KEY = 'TE2skjfG9ZP3nWN13gIhwW0r'
-        SECRET_KEY = 'dmEyu6VKasE0zMSkRlsxy5n8I52cX500'
+        APP_ID = 'APPID'
+        API_KEY = 'AK'
+        SECRET_KEY = 'SK'
         
         client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
         image = self.readPicture()
